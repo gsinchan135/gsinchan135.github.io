@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body, html{
+    height: 100%;
+    background-color: white;
+}
+nav{
+    color: #EF476F;
+    padding: 1% 1%;
+    position: sticky;
+    top: 0;
+    background-color: #073B4C;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul li{
+    display: flex;
+    list-style-type: none;
+}
+ul li a{
+    color: #EF476F;
+    text-decoration: none;
+    display: flex;
+}
+ul li a:hover{
+    color: #FFD166;
+}
+#info{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+#info > *{
+    display: flex;
+    margin-top: 5%;
+}
+#pref_contact{
+    display: flex;
+    justify-content: space-around;
+}
