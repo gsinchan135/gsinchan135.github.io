@@ -11,13 +11,13 @@
     <ul>
         <li><a href="./home.html">Home</a></li>
         <li><a href="#">Git-Hub</a></li>
+        <li><a href="./influences.html">Influences</a></li>
         <li><a href="#">Contact</a></li>
     </ul>
 </nav>
 <body>
-    <h1>Contact Me</h1>
+    <h1 id="header">Contact Me</h1>
     <form id="info">
-        
         
             <label id="fname" for="fnameFirst">First name:</label>
             <input type="text" name="fnameFirst">
@@ -29,7 +29,7 @@
             <input type="email" name="email">
 
             <label id="phone" for="phone">Enter your phone number:</label>
-            <input type="phone" name="phone">
+            <input type="tel" name="phone">
         
 
         <p>What is your prefered contact method?</p>
@@ -44,15 +44,27 @@
                 <label for="email">Email</label>
             </div>
         </div>
+
+        <label>Please choose your province</label>
+        <select id="provinces">
+            <option value="ab">Alberta</option>
+            <option value="bc">British Columbia</option>
+            <option value="mn">Manitoba</option>
+            <option value="nb">New Brunswick</option>
+            <option value="nl">Newfoundland and Labrador</option>
+            <option value="ns">Nova Scotia</option>
+            <option value="ont">Ontario</option>
+            <option value="pei">Prince Edward Island</option>
+            <option value="qc">Quebec</option>
+            <option value="sask">Saskatchewan</option>
+        </select>
         
-        <p>What province are you from?</p>
+        <label for="msg2">Additional Comments:</label>
+        <textarea id="limited" name="msg2"></textarea>
 
         <input type="submit" value="Submit">
 
                                            
       </form>
-
 </body>
-
-
 </html>
